@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.createUser_div{
+   padding: 20px 30%;
+}
+.formStyle_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 5px solid darkcyan;
+    border-radius: 20px;
+    padding: 10px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+input{
+    padding: 10px 20px;
+    border: 5px solid darkcyan;
+    border-radius: 10px;
+}
+select{
+    padding: 10px 10px;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: whitesmoke; 
+}
+option{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+label:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: darkcyan;
+    /* text-shadow: 5px 5px cyan; */
+}
+.genderStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.submit{
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}

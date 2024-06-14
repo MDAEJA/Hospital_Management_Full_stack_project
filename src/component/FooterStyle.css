@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer_div{
+    margin: 20px 10px;
+    background-color: darkcyan;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.form_div{
+    border: 2px solid whitesmoke;
+    margin: 50px 25%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
